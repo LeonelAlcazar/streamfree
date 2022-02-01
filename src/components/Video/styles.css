@@ -1,0 +1,42 @@
+.video {
+	width: 100%;
+	overflow: hidden;
+}
+.video .thumbnail-wrapper {
+	width: 100%;
+	position: relative;
+}
+.video .thumbnail {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.video .info {
+	margin-top: 0.5rem;
+	display: flex;
+	gap: 0.5rem;
+}
+.video .info img {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 100%;
+}
+.video .info .title {
+	color: #000;
+	font-weight: bold;
+	font-size: 1.1rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.video .info .username {
+	display: block;
+
+	color: #333;
+}
+.video .info .info-text {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
